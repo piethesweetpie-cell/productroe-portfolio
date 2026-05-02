@@ -1,6 +1,7 @@
 .next
 out
 node_modules
+.code-review-graph
 .env*
 !.env.example
 npm-debug.log*
