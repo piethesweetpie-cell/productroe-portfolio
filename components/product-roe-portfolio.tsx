@@ -75,14 +75,8 @@ export function ProductRoePortfolio() {
             <span className="font-skin-serif text-[24px] tracking-[0] text-[#2c2c2c]">Portfolio</span>
           </div>
           <div className="flex items-center gap-2 text-sm font-bold text-[#6d5c58]">
-            <a href="https://onroe.space/characterroe" className="rounded-full border border-[#ead9cf] bg-white/70 px-4 py-2 transition-colors hover:bg-[#fbf4f0] hover:text-[#934b66]">
-              CharacterRoe
-            </a>
-            <a href="https://onroe.space/titleroe" className="rounded-full border border-[#ead9cf] bg-white/70 px-4 py-2 transition-colors hover:bg-[#fbf4f0] hover:text-[#934b66]">
-              TitleRoe
-            </a>
             <a href="https://onroe.space/" className="rounded-full bg-[linear-gradient(135deg,#c89f92,#b98677)] px-5 py-2 text-xs font-bold uppercase tracking-[0.2em] text-white shadow-[0_14px_28px_rgba(185,134,119,0.20)] transition-opacity hover:opacity-95">
-              의뢰하기
+              돌아가기
             </a>
           </div>
         </div>
