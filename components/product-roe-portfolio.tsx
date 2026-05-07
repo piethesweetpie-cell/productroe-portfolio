@@ -65,7 +65,7 @@ export function ProductRoePortfolio() {
 
   return (
     <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.92),_rgba(245,230,231,0.95)_42%,_rgba(244,234,228,1)_100%)] text-[#2c2c2c]">
-      <nav className="sticky top-0 z-30 border-b border-[#ead9cf]/80 bg-white/80 backdrop-blur-xl">
+      <nav className="z-30 border-b border-[#ead9cf]/80 bg-white/80 backdrop-blur-xl">
         <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-6 py-[18px] md:px-12 lg:px-20">
           <div className="flex items-center gap-4">
             <a href="https://onroe.space/" className="text-xs font-bold uppercase tracking-[0.2em] text-[#a48777] transition-colors hover:text-[#2c2c2c]">
@@ -109,11 +109,10 @@ export function ProductRoePortfolio() {
             <div className="mt-8 flex flex-wrap gap-6">
               <Stat num={String(portfolioBrands.length)} label="Brands" />
               <Stat num={String(portfolioItems.length)} label="Images" />
-              <Stat num="AI" label="Generated" />
             </div>
           </div>
 
-          <div className="pointer-events-none mt-[40px] hidden flex-shrink-0 select-none md:block">
+          <div className="pointer-events-none mt-[45px] hidden flex-shrink-0 select-none md:block">
             <div className="book-float relative flex h-56 w-56 items-center justify-center lg:h-64 lg:w-64">
               <div
                 ref={bookShadowRef}
@@ -134,7 +133,7 @@ export function ProductRoePortfolio() {
         </div>
       </section>
 
-      <div className="sticky top-[61px] z-20 border-b border-[#ead9cf]/80 bg-[#fbf4f0]/92 backdrop-blur-xl">
+      <div className="z-20 border-b border-[#ead9cf]/80 bg-[#fbf4f0]/92 backdrop-blur-xl">
         <div className="mx-auto max-w-5xl px-6 md:px-12 lg:px-20">
           <div className="flex flex-wrap items-center gap-1 py-3">
             {[{ id: "all", label: "ALL" }, ...portfolioBrands].map((brand) => {
